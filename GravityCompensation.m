@@ -1,3 +1,8 @@
+%% Original Authors: Amaid Zia, Brandon Boos, Junius Santoso, Alex Rutfield, Nuttaworn Sujumonong
+%% Worcester Polytechnic Institute
+%% Maintainer: Adnan Munawar
+%% Email: amunawar@wpi.edu
+%% Automation in Interventional Medicine Labs (AIM Labs), WPI, MA, 01609
  sub_pos = rossubscriber('/dvrk_mtm/joint_position_current');
  pub_tor = rospublisher('/dvrk_mtm/set_joint_effort');
  g = 9.81;

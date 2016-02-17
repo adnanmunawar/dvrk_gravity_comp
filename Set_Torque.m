@@ -1,3 +1,8 @@
+%% Original Authors: Amaid Zia, Brandon Boos, Junius Santoso, Alex Rutfield, Nuttaworn Sujumonong
+%% Worcester Polytechnic Institute
+%% Maintainer: Adnan Munawar
+%% Email: amunawar@wpi.edu
+%% Automation in Interventional Medicine Labs (AIM Labs), WPI, MA, 01609
 function [Success] = Set_Torque(set_torque_msg,torque)
     msg = rosmessage(set_torque_msg);
     msg.Effort(1) = torque(1);
